@@ -109,6 +109,46 @@ The project uses three main components:
    - Built with OpenZeppelin for security
    - Deployable to Celo's Alfajores testnet
 
+### Example Responses
+
+```
+AI generated token: { name: "Satoshi's Catnip", symbol: 'SCP' }
+Reading artifacts from: /Users/shk/experiments/onchainkit-gaia/artifacts/contracts/MemeToken.sol/MemeToken.json
+Deploying from account: 0xbDe71618Ef4Da437b0406DA72C16E80b08d6cD45
+Account balance:
+A-CELO: 10.353296994614 A-CELO
+Sending deployment transaction...
+Transaction sent! Hash: 0xd5b17d8ce38ddf50ca7366cf658b3d24d6d9a1d0e3bce6e50b870bd50e961792
+Deployment confirmed in block: 35794429
+Token deployed successfully!
+{
+  name: "Satoshi's Catnip",
+  symbol: 'SCP',
+  address: '0x0563109c80733Ea484F86b653262ecA50b8a06d6',
+  transactionHash: '0xd5b17d8ce38ddf50ca7366cf658b3d24d6d9a1d0e3bce6e50b870bd50e961792',
+  explorer: 'https://alfajores.celoscan.io/address/0x0563109c80733Ea484F86b653262ecA50b8a06d6'
+}
+```
+
+```
+AI generated token: { name: 'LolToken', symbol: 'LOL' }
+Reading artifacts from: /Users/shk/experiments/onchainkit-gaia/artifacts/contracts/MemeToken.sol/MemeToken.json
+Deploying from account: 0xbDe71618Ef4Da437b0406DA72C16E80b08d6cD45
+Account balance:
+A-CELO: 10.337778442114 A-CELO
+Sending deployment transaction...
+Transaction sent! Hash: 0xfe83c066173362374b1c6a420c2fdc37f7fd4f923bd3d8a3b94e384988cbde13
+Deployment confirmed in block: 35797227
+Token deployed successfully!
+{
+  name: 'LolToken',
+  symbol: 'LOL',
+  address: '0x47442330f26B58D7C1b7D13ed20fE1244aE58Dbe',
+  transactionHash: '0xfe83c066173362374b1c6a420c2fdc37f7fd4f923bd3d8a3b94e384988cbde13',
+  explorer: 'https://alfajores.celoscan.io/address/0x47442330f26B58D7C1b7D13ed20fE1244aE58Dbe'
+}
+```
+
 ## Need Help? 🤔
 
 - For Celo-specific questions: [Celo Docs](https://docs.celo.org/)
