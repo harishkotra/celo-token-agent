@@ -34,10 +34,10 @@ export class TokenDeployer {
         const celoBalance = await goldtoken.balanceOf(address);
         
         console.log('Account balance:');
-        console.log(`A-CELO: ${this.kit.web3.utils.fromWei(celoBalance.toString())} A-CELO`);
+        console.log(`S-CELO: ${this.kit.web3.utils.fromWei(celoBalance.toString())} S-CELO`);
         
         if (celoBalance.isZero()) {
-            throw new Error('Insufficient A-CELO. Please visit https://faucet.celo.org/alfajores to get test tokens');
+            throw new Error('Insufficient S-CELO. Please visit https://faucet.celo.org/celo-sepolia to get test tokens');
         }
     }
 
@@ -93,7 +93,7 @@ export class TokenDeployer {
                 symbol,
                 address: tx.address,
                 transactionHash: tx.transactionHash,
-                explorer: `https://alfajores.celoscan.io/address/${tx.address}`
+                explorer: `https://celo-sepolia.blockscout.com/${tx.address}`
             });
 
             return tx;
