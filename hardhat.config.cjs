@@ -14,10 +14,10 @@ module.exports = {
     }
   },
   networks: {
-    alfajores: {
-      url: "https://alfajores-forno.celo-testnet.org",
+    celoSepolia: {
+      url: "https://forno.celo-sepolia.celo-testnet.org/",
       accounts: [PRIVATE_KEY],
-      chainId: 44787
+      chainId: 11142220
     }
   }
 };

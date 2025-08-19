@@ -10,10 +10,10 @@ async function main() {
         const { name, symbol } = await generateTokenName();
         const { initialSupply } = generateTokenomics();
 
-        // Initialize deployer with Celo Alfajores testnet
+        // Initialize deployer with Celo Sepolia testnet
         const deployer = new TokenDeployer(
             process.env.PRIVATE_KEY,
-            'https://alfajores-forno.celo-testnet.org'
+            'https://forno.celo-sepolia.celo-testnet.org/'
         );
 
         // Deploy token
